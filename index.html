@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>GET GIFT</title>
+  <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+<style>
+  body{
+    background-color: rgb(234, 192, 137);
+    color: rgb(255, 254, 254);
+  }
+</style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="text-center mt-4 mb-4">GET-ANY-GIFTS</h1>
+    <form class="form-inline d-flex justify-content-center mb-4">
+      <input type="text" id="search" name="search" placeholder="Enter a search term" class="form-control mr-2" />
+      <input type="submit" class="btn btn-primary" value="Search Giphy!" />
+      <button id="remove" class="btn btn-danger ml-2">Remove Gifts</button>
+    </form>
+    <div id="gif-area" class="row">
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
